@@ -1,0 +1,37 @@
+.main-container{
+  border: 1px solid rgb(22, 21, 21);
+  display: grid;
+}
+
+h1{text-align: center;}
+
+.postlist{
+  border: 1px solid rgb(105, 99, 99);
+  padding: 10px;
+  margin: 5px 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  /* Three equal-width columns , 
+  1fr= 1 fraction (or 1 part) of the available space.  */
+  grid-gap: 10px; /* Gap between grid items */
+
+}
+.singlepost{
+
+  padding: 10px;
+  background-color:rgb(219, 235, 229);
+  border: 1px solid rgb(105, 99, 99);
+  white-space: pre-wrap;
+  word-wrap: break-word;  
+  /* will wrap to the next line if it exceeds the width of the container. */
+  overflow: hidden;
+  /* property ensures that any overflowing content is hidden within the post's boundaries. */
+}
+
+h2{text-align: center;}
+.createpostcontainer{
+  border: 1px solid rgb(105, 99, 99);
+  padding: 10px;
+  margin: 5px 500px;
+  text-align: center;
+}
